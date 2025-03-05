@@ -14,3 +14,17 @@
     background-size: cover;
     height: 600px;
 }
+
+h1, h2, h3 {
+        font-family: "Orbitron", serif !important;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+}
+
+body {
+  font-family: "Montserrat", serif !important;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
