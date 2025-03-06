@@ -35,6 +35,12 @@
             value="{{ $post->title }}"
             class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
 
+        <input 
+            type="text"
+            name="quote"
+            value="{{ $post->quote }}"
+            class="bg-transparent block border-b-2 w-full h-20 text-4xl outline-none mt-5">
+
         <textarea 
             name="description"
             placeholder="Description..."

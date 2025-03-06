@@ -13,10 +13,14 @@
     <span class="text-gray-500">
         By <span class="font-bold italic text-gray-800">{{ $post->user->name }}</span>, Created on {{ date('jS M Y', strtotime($post->updated_at)) }}
     </span>
-
+<p class="text-4xl text-orange-700 pt-8 pb-3 leading-8 font-light">Quote of the day</p>
+    <p class="text-4xl text-gray-700 pt-8 pb-10 leading-8 font-light">
+        "{{ $post->quote }}"
+    </p>
+    <p class="text-4xl text-orange-700 pt-8 pb-3 leading-8 font-light">A short story of their life</p>
     <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">
         {{ $post->description }}
     </p>
 </div>
 
-@endsection 
+@endsection
